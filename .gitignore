@@ -1,2 +1,3 @@
 node_modules/
+# this is a macOS specific file type, but useful if this application is used in a cross-platform setting.
 .DS_Store
