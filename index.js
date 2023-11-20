@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquireer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown')
-const fs = require('fs')
+const fs = require('fs');
+const { default: inquirer } = require('inquirer');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -17,13 +18,13 @@ const questions = [
     },
     {
         type:'input',
-        name:'table_of_contents',
+        name:'tableOfContents',
         message:'Provide a Table of Contents',
     },
     {
         type:'input',
-        name:'instillation',
-        message:'What are the instillation instructions?',
+        name:'installation',
+        message:'What are the installation instructions?',
     },
     {
         type:'input',
@@ -59,10 +60,20 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => err ? console.error(err) :console.log('README has been succesfully created'))
+    
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+//Created this function with help from the Xpert learning
+//TO DO: comment on this function works ***********************
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+        const markdown = generateMarkdown(answers);
+        writeToFile(markdown)
+    })
+}
 
 // Function call to initialize app
 init();
