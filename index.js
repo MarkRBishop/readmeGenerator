@@ -1,8 +1,7 @@
 // TODO: Include packages needed for this application
-const inquireer = require('inquirer')
+const inquirer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require('fs');
-const { default: inquirer } = require('inquirer');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -69,8 +68,9 @@ function writeToFile(fileName, data) {
 //TO DO: comment on this function works ***********************
 function init() {
     inquirer.prompt(questions).then((answers) => {
+        const fileName = 'README.md';
         const markdown = generateMarkdown(answers);
-        writeToFile(markdown)
+        writeToFile(fileName, markdown)
     })
 }
 
