@@ -35,7 +35,7 @@ const questions = [
         type:'list',
         name:'license',
         message:'Choose the license for your project',
-        choices:['MIT','Apache 2.0','GNU 3.0','BSD 2','BSD 3','Boost Software License 1.0','Creative Commons Zero v1.0 Universal','Eclipse Public License 2.0', 'GNU 2.0', 'GNU 2.1', 'Mozilla Public License 2.0','None']
+        choices:['MIT License', 'Apache License 2.0', 'GNU General Public License (GPL)', 'GNU Lesser General Public License (LGPL)', 'BSD 2-Clause License', 'BSD 3-Clause License', 'Mozilla Public License 2.0', 'Creative Commons Attribution License', 'The Unlicense', 'ISC License', 'Boost Software License 1.0', 'Eclipse Public License 2.0', 'None']
     },
     {
         type:'input',
