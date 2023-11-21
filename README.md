@@ -34,4 +34,4 @@
   N/A
 
   ## Questions
-  If you have any questions or comments, my GitHub username is [GitHub](https://github.com/MarkRBishop). Or, E-mail me at mrb.8@hotmail.com.
+  If you have any questions or comments, my GitHub username is [MarkRBishop](https://github.com/MarkRBishop). Or, E-mail me at mrb.8@hotmail.com.
