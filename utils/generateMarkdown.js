@@ -106,7 +106,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  If you have any questions or comments, my GitHub username is [GitHub](https://github.com/${data.github}). Or, E-mail me at ${data.email}.
+  If you have any questions or comments, my GitHub username is [${data.github}](https://github.com/${data.github}). Or, E-mail me at ${data.email}.
 `;
 }
 
