@@ -1,6 +1,7 @@
 # README.md Generator
 
-  
+  ## Link
+  https://drive.google.com/file/d/1phEj73wF2GgbSImRVWkKFU4DSUvBzTsf/view  
 
   ## Description
   This application generate a README through a series of prompts, then write the README for you!
@@ -15,7 +16,8 @@
   - [Questions](#questions)
   
   ## Installation
-  Simply clone the repository to a local folder of your choosing with git.
+  Simply clone the repository to a local folder of your choosing with git. 
+  Make sure to do an "npm install" in the terminal at the repository directory location to ensure node is installed.
 
   ## Usage
   Open the terminal and type "node index.js" to run the application
