@@ -23,10 +23,6 @@
   ## License
   This project is None licensed.
   
-  
-
-  
-
   ## Contributing
   If you use this application and have found issues, would like to provide suggestions on improvements or generally just want to give your insight or comments. I will provide my GitHub username and my E-mail below.
 
